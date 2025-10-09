@@ -16,3 +16,22 @@ screenshots will show:
 - commands.txt
 - dagbok.txt
 - instructions_for_aslaug.txt
+
+
+## Folder Tree of /GÖGN
+![GOGN folder structure](GÖGN.png)
+
+## /etc/passwd
+![passwd file tail](PASSWD.png)
+
+## /etc/shadow
+![shadow file tail](SHADOW.png)
+
+## /etc/group
+![group file tail](GROUP.png)
+
+## /etc/skel listing
+![skel folder contents](SKEL.png)
+
+## Áslaug's Home Folder
+![Áslaug home](ASLAUG_HOME.png)
