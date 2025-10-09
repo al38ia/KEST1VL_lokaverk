@@ -1,0 +1,24 @@
+# instrections for Áslaug
+
+## creating a new user
+ 
+sudo adduser <username>
+
+# follow prompts for full name, passowrd, home folder
+
+sudo usermod -aG allir <username>
+sudo usermod -aG forritun <username>  # if programming
+sudo usermod -aG markadsmal <username>  # if marketing
+sudo chage -d 0 <username> #  forces passowrd change on first login
+
+## unlocking Erla and Erlendur
+sudo passwd -u erla
+sudo passwd -u erlendur
+
+## managing sudo
+sudo visudo
+
+## linking home folders to GÖGN
+ln -s /GÖGN/sameign ~/vinna/sameign
+ln -s /GÖGN/forritun ~/vinna/forritun
+ln -s /GÖGN/markadsmal ~/vinna/markadsmal

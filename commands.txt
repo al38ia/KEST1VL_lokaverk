@@ -1,0 +1,242 @@
+    1  sudo apt-get install bzip2 tar
+    2  sudo -i
+    3  sudo -v
+    4  cat /etc/os-release
+    5  sudo groupadd -f allir
+    6  sudo groupadd -f forritun
+    7  sudo groupadd -f markadsmal
+    8  aslaug
+    9  aslaug bjorn bryndis elin ellert elsa erla erlendur
+   10  for u in aslaug bjorn bryndis elin ellert elsa erla erlendur; dosudo deluser --remove-home "u" 2>/dev/null || echo " u not found"
+   11  for u in aslaug bjorn bryndis elin ellert elsa erla erlendur; do sudo deluser --remove-home "u" 2>/dev/null || echo " u not found"
+   12  whomai
+   13  sudo whoami
+   14  sudo adduser aslaug
+   15  cat /etc/passwd | grep home
+   16  sudo deluser --remove-home aslaug
+   17  sudo deluser --remove-home Haukasdóttir
+   18  sudo groupdel allir
+   19  sudo groupdel forritun
+   20  sudo groupdel markdsmal
+   21  sudo groupdel markadsmal
+   22  sudo rm -rf /GÖGN
+   23  cat /etc/passwd | grep home
+   24  getent group | grep -E "allir|forritun|markadsmal
+   25  cd
+   26  c
+   27  x
+   28  getent group | grep -E "allir|forritun|markadsmal"
+   29  is /GÖGN
+   30  ls /GÖGN
+   31  sudo mkdir /GÖGN
+   32  ls -i /
+   33  sudo mkdir /GÖGN/sameign
+   34  sudo mkdir /GÖGN/forritun
+   35  sudo mkdir /GÖGN/markadsmal
+   36  ls -l /GÖGN
+   37  sudo groupadd allir
+   38  sudo groupadd forritun
+   39  sudo groupadd markadsmal
+   40  sudo chown root:allir /GÖGN/sameign
+   41  sudo chown root:forritun /GÖGN/forritun
+   42  sudo chown root:forritun /GÖGN/markadsmal
+   43  sudo chown root:forritun /GÖGN/n
+   44  sudo chown root:markadsmal /GÖGN/markadsmal
+   45  ls -l /GÖGN
+   46  sudo chmod 770 /GÖGN/sameign
+   47  sudo chmod 770 /GÖGN/forritun
+   48  sudo chmod 770 /GÖGN/markadsmal
+   49  ls -ld /GÖGN/*
+   50  sudo groupadd allir
+   51  sudo adduser aslaug
+   52  sudo usermod -aG allir,forritun aslaug
+   53  groups aslaug
+   54  sudo adduser bjorn
+   55  sudo usermod -aG allir,forritun bjorn
+   56  groups bjorn
+   57  sudo adduser bryndis
+   58  sudo usermod -aG allir,forritun bryndis
+   59  sudo chfn -f "Bryndís samúelsdóttir" bryndis
+   60  grep bryndis /etc/passwd
+   61  sudo adduser elin
+   62  jsd
+   63  sudo adduser ellert
+   64  sudo usermod -aG allir,forritun elin
+   65  sudo usermod -aG allir,forritun ellert
+   66  sudo adduser elsa
+   67  sudo usermod -aG aliir,markadsmal elsa
+   68  sudo usermod -aG allir,markadsmal elsa
+   69  sudo adduser erlendur
+   70  sudo usermod -aG allir,markadsmal erlendur
+   71  cat /etc/passwd | grep home
+   72  sudo adduser erla
+   73  sudo usermod -aG allir,markadsmal erla
+   74  sudo chfn -f "Erla þorbjörnsdóttir
+   75  sudo chfn -f "Erla þorbjörnsdóttir" erla
+   76  sudo apt update
+   77  sudo apt install zsh -y
+   78  sudo chsh -s /usr/bin/zsh aslaug 
+   79  grep aslaug /etc/passwd
+   80  sudo apt update 
+   81  sudo apt install curl -y
+   82  curll   --version
+   83  curl --version
+   84  sudo su - aslaug
+   85  zsh --version
+   86  curl --version
+   87  whoami
+   88  pwd
+   89  sudo apt update
+   90  sudo apt install zsh curl fonts-powerline -y
+   91  sudo su - aslaug
+   92  sudo usermod -aG sudo aslaug
+   93  sudo su - aslaug 
+   94  groups aslaug
+   95  sudo usermod -aG markadsmal aslaug 
+   96  groups aslaug 
+   97  sudo su - aslaug 
+   98  users=("aslaug" "bjorn" "bryndis" "elin" "ellert" "elsa" "erla" "erlendur")
+   99  for user in "${users[@]"; do
+  100  sudo mkdir -p /home/$user/Vinna
+  101  sudo mkdir -p /home/$user/leikir
+  102  sudo chown -R $user:$user /home/$user/Vinna /home/$user/leikir
+  103  cd
+  104  >
+  105  c
+  106  for user in "${users[@]"; do sudo mkdir -p /home/$user/Vinna; sudo mkdir -p /home/$user/Leikir; sudo chown -R $user:$user /home/$user/Vinna /home/$user/leikir; done
+  107  users=("aslaug" "bjorn" "bryndis" "elin" "ellert" "elsa" "erla" "erlendur")
+  108  for user in "${users[@]"; do sudo mkdir -p /home/$user/Vinna; sudo mkdir -p /home/$user/Leikir; sudo chown -R $user:$user /home/$user/Vinna /home/$user/leikir; done
+  109  sudo mkdir -p /home/aslaug/Vinna
+  110  sudo mkdir -p /home/aslaug/Leikir
+  111  sudo mkdir -R aslaug:aslaug /home/aslaug/Vinna /home/aslaug/Leikir
+  112  sudo mkdir -r aslaug:aslaug /home/aslaug/Vinna /home/aslaug/Leikir
+  113  sudo chown -R aslaug:aslaug /home/aslaug/Vinna /home/aslaug/Leikir
+  114  sudo ln -s /GÖGN/sameign /home/aslaug/sameign
+  115  sudo ln -s/GÖGN/forritun /home/aslaug/forritun
+  116  sudo ln -s /GÖGN/forritun /home/aslaug/forritun
+  117  sudo ln -s /GÖGN/markadsmal /home/aslaug/markadsmal
+  118  sudo chown -h aslaug:aslaug /home/aslaug/sameign /home/aslaug/forritun /home/aslaug/markadsmal
+  119  sudo ln -s /GÖGN/sameign /home/bjorn/sameign
+  120  sudo ln -s /GÖGN/forritun /home/bjorn/forritun
+  121  sudo ln -s /GÖGN/markadsmal /home/bjorn/markadsmal
+  122  sudo chown -h bjorn:bjorn /home/bjorn/sameign /home/bjorn/forritun /home/bjorn/markadsmal
+  123  sudo ln -s /GÖGN/sameign /home/bryndis/sameign
+  124  sudo ln -s /GÖGN/forritun /home/bjorn/forritun
+  125  sudo ln -s /GÖGN/forritun /home/bryndis/forritun
+  126  sudo ln -s /GÖGN/markadsmal /home/bryndis/markadsmal
+  127  sudo chown -h bryndis:bryndis /home/bryndis/sameign /home/bryndis/forritun /home/bryndis/markadsmal
+  128  sudo ln -s /GÖGN/sameign /home/elin/sameign
+  129  sudo ln -s /GÖGN/forritun /home/elin/forritun
+  130  sudo ln -s /GÖGN/markadsmal /home/elin/markadsmal
+  131  sudo chown -h elin:elin /home/elin/sameign /home/elin/forritun /home/elin/markadsmal
+  132  sudo ln -s /GÖGN/sameign /home/ellert/sameign
+  133  sudo ln -s /GÖGN/forritun /home/ellert/forritun
+  134  sudo ln -s /GÖGN/markadsmal /home/ellert/markadsmal
+  135  sudo chown -h ellert:ellert /home/ellert/sameign /home/ellert/forritun /home/ellert/markadsmal
+  136  sudo ln -s /GÖGN/sameign /home/elsa/sameign
+  137  sudo ln -s /GÖGN/forritun /home/ellert/forritun
+  138  sudo ln -s /GÖGN/forritun /home/elsa/forritun
+  139  sudo ln -s /GÖGN/markadsmal /home/elsa/markadsmal
+  140  sudo chown -h elsa:elsa /home/elsa/sameign /home/elsa/forritun /home/elsa/markadsmal
+  141  sudo ln -s /GÖGN/sameign /home/erla/sameign
+  142  sudo ln -s /GÖGN/forritun /home/erla/forritun
+  143  sudo ln -s /GÖGN/markadsmal /home/erla/markadsmal
+  144  sudo chown -h erla:erla /home/erla/sameign /home/erla/forritun /home/erla/markadsmal
+  145  sudo ln -s /GÖGN/sameign /home/erlendur/sameign
+  146  sudo ln -s /GÖGN/forritun /home/erlendur/forritun
+  147  sudo ln -s /GÖGN/markadsmal /home/erlendur/markadsmal
+  148  sudo chown -h erlendur:erlendur /home/erlendur/sameign /home/erlendur/forritun /home/erlendur/markadsmal
+  149  sudo chown root:allir /GÖGN/sameign
+  150  sudo chmod 770 /GÖGN/sameign
+  151  sudo chown root:forritun /GÖGN/forritun
+  152  sudo chmod 770 /GÖGN/forritun
+  153  sudo chown root:markadsmal /GÖGN/markadsmal
+  154  sudo chmod 770 /GÖGN/markadsmal
+  155  sudo usermod -L erla
+  156  sudo usermod -L erlendur
+  157  sudo passwd -S erla
+  158  sudo passwd -S erlendur
+  159  tail /etc/passwd
+  160  tail -15 /etc/group
+  161  ls -l /home/aslaug
+  162  tail /etc/passwd
+  163  tail -15 /etc/group
+  164  sudo is -al /GÖGN
+  165  sudo ls -al /GÖGN
+  166  ls -l /home/aslaug
+  167  sudo su - aslaug 
+  168  ls -l /home/aslaug
+  169  sudo ls -l /home/aslaug
+  170  sudo ls -al /GÖGN
+  171  echo $SHELL
+  172  sudo su - aslaug
+  173  sudo passwd -S erla
+  174  sudo passwd -S erlendur
+  175  sudo su - aslaug
+  176  tail -15 /etc/group
+  177  getent group sudo
+  178  sudo deluser al38ia sudo
+  179  getent group sudo
+  180  sudo passwd --expire aslaug
+  181  sudo passwd --expire bjorn
+  182  sudo passwd --expire bryndis
+  183  sudo passwd --expire elin
+  184  sudo passwd --expire ellert
+  185  sudo passwd --expire elsa
+  186  sudo chage -l bjorn
+  187  cd ~/path/to/Loka_verekfni_-_KESTVL1
+  188  cd ~/Loka_verkefni_-_KESTVL1
+  189  cd ~/path/to/Loka_verkefni_-_KESTVL1
+  190  git status
+  191  git init git remote add origin https://githup.com/al38ia/Loka_verkefni_-_KESTVL1.git
+  192  git add .
+  193  git add.
+  194  git status
+  195  cd ~/path/to/Loka_verkefni_í_KESTVL1
+  196  cd ~/path/to/Loka_verkefni_-_KESTVL1
+  197  ls
+  198  ls ~/Desktop
+  199  ls
+  200  ls ~/Documents
+  201  cd ~/Desktop/Loka_verkefni_-_KESTVL1
+  202  cd ~/Documents/Loka_verkefni_-_KESTVL1
+  203* 
+  204  cd ~/Desktop
+  205  ls
+  206  cd ~/Documents
+  207  ls
+  208  find ~ -type d -name "*KESTVL1*"
+  209  cd /home
+  210  cd 
+  211  find ~ -type d -name "*KESTVL1*"
+  212  sudo find / -type d -name "*KESTVL1*" 2>/dev/null
+  213  cd ~/Loka_verkefni_-_KESTVL1
+  214  ls
+  215  git init
+  216  git remote add origin https://githup.com/al38ia/Loka_verkefni_-_KESTL1.git
+  217  git add
+  218  git remote add origin https://githup.com/al38ia/Loka_verkefni_-_KESTL1.git git add.
+  219  git commit -m "Initial project upload"
+  220  git config --global user .name "al38ia"
+  221  cd ~/Loka_verkefni_-_KESTVL1
+  222  ls
+  223  mkdir ~/KEST1VL_lokaverk
+  224  cd ~/KEST1VL_lokaverk
+  225  cd ~/old_project_folder
+  226  cd
+  227  history > commands.txt
+  228  ls
+  229  sudo ls -alR /GÖGN
+  230  tail /etc/passwd
+  231  sudo tail /etc/shadow
+  232  tail -15 /etc/group
+  233  ls -al /etc/skel
+  234  ls -a /hone/aslaug
+  235  sudo ls -a /home/aslaug
+  236  mkdir ~/KEST1VL_lokaverk
+  237  cd ~/downloads/*.png ~/KEST1VL_lokaverk/
+  238  ls ~/Downloads
+  239  ls
+  240  history > ~/KEST1VL_lokaverk/commands.txxt
+  241  ls ~/KEST1VL_lokaverk
+  242  history > ~/KEST1VL_lokaverk/commands.txt

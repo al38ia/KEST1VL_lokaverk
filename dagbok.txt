@@ -1,0 +1,26 @@
+2025-10-07
+- Aslaug: created initial users and groups
+- Al38ia: set up folder structure and permissions
+- Al38ia: created linux group (allir, forritun , markadsmal) and set up folder structure (GÖGN, /GÖGN/sameign, /GÖGN/forritun, /GÖGN/markadsmal).
+
+2025-10-08:
+- Al38ia: fixed ownership issues casued by mistaken chown commands.
+- Al38ia: Locked Erla and Erllendur accounts
+- Al38ia: verified folder permissions and user home directories.
+- Al38ia: set up vinna and leikir folders in each user,s home, linked to /GÖGN folders.
+
+2025-10-09:
+- Al38ia: tested permissions and verified that users can /cannot access appropriate folders.
+- Al38ia: added Aslaug to sudoers and removed other users from sudo access
+- Al38ia: installed zsh and oh my zsh for Aslaug, applied agnoster theme, and installed powerline fonts.
+- Al38ia: forced all users to change passowrd at first log in.
+- Al38ia: took screenshots of key steps for submission.
+
+2025-10-10
+- Al38ia: created README.md with project overview and embedded screenshots.
+- Al38ia: uploded commands.txt, screenshots, and instreuctions for Aslaug to GitHup 
+- Al38ia: wrote detailed instructions for Aslaug covering:
+ - how to create users and assign groups.
+ - how to unlock Erla and Erlendur accounts.
+ - how to verify and manage sudo rights.
+ - how to link home directories to /GÖGN folders.
