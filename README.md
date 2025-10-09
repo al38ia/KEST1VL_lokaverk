@@ -1,7 +1,7 @@
 # KESTVL1 Verkefni
 
 ## Folder Tree of /GÖGN
-![GOGN folder structure](GOGN_tree.png)
+![GOGN folder structure](GÖGN.png)
 
 ## /etc/passwd
 ![passwd file tail](passwd_tail.png)
