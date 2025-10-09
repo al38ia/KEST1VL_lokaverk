@@ -4,18 +4,18 @@
 ![GOGN folder structure](GÖGN.png)
 
 ## /etc/passwd
-![passwd file tail](passwd_tail.png)
+![passwd file tail](PASSWD.png)
 
 ## /etc/shadow
-![shadow file tail](shadow_tail.png)
+![shadow file tail](SHADOW.png)
 
 ## /etc/group
-![group file tail](group_tail.png)
+![group file tail](GROUP.png)
 
 ## /etc/skel listing
-![skel folder contents](skel_ls.png)
+![skel folder contents](SKEL.png)
 
 ## Áslaug's Home Folder
-![Áslaug home](aslaug_home.png)
+![Áslaug home](ASLAUG_HOME.png)
 
 
