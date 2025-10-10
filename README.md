@@ -13,9 +13,9 @@
 ![group file tail](GROUP.png)
 
 ## /etc/skel listing
-![skel folder contents](SKEL.png)
+![skel folder contents](etc_skel.png)
 
 ## Áslaug's Home Folder
-![Áslaug home](ASLAUG_HOME.png)
+![Áslaug home](HOME_ASLAUG.png)
 
 
