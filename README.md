@@ -31,7 +31,7 @@ screenshots will show:
 ![group file tail](GROUP.png)
 
 ## /etc/skel listing
-![skel folder contents](SKEL.png)
+![skel folder contents]()
 
 ## Áslaug's Home Folder
-![Áslaug home](ASLAUG_HOME.png)
+![Áslaug home]()
