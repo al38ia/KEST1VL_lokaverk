@@ -34,4 +34,4 @@ screenshots will show:
 ![skel folder contents]()
 
 ## Áslaug's Home Folder
-![Áslaug home]()
+![Áslaug home](HOME_ASLAUG.png)
